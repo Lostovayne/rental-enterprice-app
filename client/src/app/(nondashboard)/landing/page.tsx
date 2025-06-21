@@ -1,12 +1,13 @@
-import React from 'react'
-import HeroSection from './HeroSection'
+import FeaturesSection from "./FeaturesSection";
+import HeroSection from "./HeroSection";
 
 const LandingPage = () => {
   return (
     <div>
       <HeroSection />
+      <FeaturesSection />
     </div>
-  )
-}
+  );
+};
 
-export default LandingPage
+export default LandingPage;
